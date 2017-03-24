@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Open Default Apps
-Exec=/home/dev3/open-default-apps.sh
+Exec=/home/[YOUR USERNAME]/open-default-apps.sh
 Type=Application
 Comment[en_US]=Abre meus programas padrões
 Comment=Abre meus programas padrões
