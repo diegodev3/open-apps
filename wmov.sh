@@ -125,10 +125,3 @@ case $1 in
     mov)    move_window $2 `get_coord $3` $4 ;;
     *)      switch_workspace `get_coord $1` ;;
 esac
-
-# maximinizar todos os aplicativos
-window_ids=$(wmctrl -l | cut -f1 -d " ")
-for window_id in $window_ids
-do
-    wmctrl -i -r "$window_id" -b add,maximized_vert,maximized_horz
-done
