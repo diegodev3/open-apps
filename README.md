@@ -1,13 +1,13 @@
 # open-apps
 
-h4. Instale o wmctrl
+#### Instale o wmctrl
 
 <pre>
 sudo apt-get install wmctrl
 </pre>
 
 
-h4. Faça download dos arquivos
+#### Faça download dos arquivos
 
 Altere [YOUR USERNAME] para a pasta do seu usuário em open-default-apps.desktop
 
@@ -21,7 +21,7 @@ Comment=Abre meus programas padrões
 </pre>
 
 
-h4. Altere o arquivo open-default-apps.sh para abrir o App desejado
+#### Altere o arquivo open-default-apps.sh para abrir o App desejado
 
 <pre>
 subl && sleep 2 && ./wmov.sh mov 'Sublime' 1 2
@@ -29,7 +29,7 @@ subl && sleep 2 && ./wmov.sh mov 'Sublime' 1 2
 </pre>
 
 
-h4. Entendendo o ID do Screen
+#### Entendendo o ID do Screen
 
 <pre>
     3 X 3           2 X 3
@@ -40,7 +40,7 @@ h4. Entendendo o ID do Screen
 </pre>
 
 
-h4. Mova os arquivos para as pastas designadas
+#### Mova os arquivos para as pastas designadas
 
 <pre>
   mv open-default-apps.desktop ~/.config/autostart/open-default-apps.desktop
